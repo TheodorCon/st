@@ -6,6 +6,11 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Cascadia Code PL:pixelsize=16:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"Symbola:pixelsize=12:antialias=true:autohint=true" // install unifont made it stop crashing on my machine
+};
+
 static int borderpx = 2;
 
 /*
